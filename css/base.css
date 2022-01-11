@@ -1,0 +1,401 @@
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #dddddd;
+  margin: 0;
+  min-width: 320px;
+  color: #575757;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+
+.blue-text {
+  color: rgba(0, 69, 128, 0.9);
+}
+
+#main {
+  position: relative;
+  box-shadow: 1px 0px 5px 3px #a3a3a3;
+  max-width: 1600px;
+  background-color: white;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#logo-banner {
+  background-color: #e6e6e6;
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  height: 100px;
+  text-align: center;
+}
+
+#logo-banner img {
+  height: 90%;
+  vertical-align: middle;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#mobile-navbar {
+  display: none;
+  background-color: white;
+  border-bottom: solid 1px #c4c4c4;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+#mobile-navbar-logo {
+  text-align: center;
+  width: 100%;
+}
+
+#mobile-navbar-logo a {
+  display: inline-block;
+  height: 100%;
+}
+
+#mobile-navbar-logo img {
+  height: 100px;
+  width: 350px;
+}
+
+#menu-icon {
+  position: absolute;
+  padding: 8px 10px;
+  height: 88px;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
+#menu-icon:hover {
+  cursor: pointer;
+}
+
+.menu-icon-bar {
+  background-color: rgba(0, 69, 128, 0.9);
+  border-radius: 4px;
+  margin: 6px 0;
+  width: 50px;
+  height: 10px;
+}
+
+#mobile-navbar-content {
+  display: none;
+  border-top: solid 1px #c4c4c4;
+  overflow: auto;
+  text-align: center;
+  margin: 0 auto;
+  overflow:visible;
+}
+
+.mobile-dropdown-content:hover {
+  background-color: rgba(0, 69, 128, 0.9);
+  color: white;
+}
+
+.mobile-dropdown-header {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0px;
+  color: #404040;
+  border-bottom: solid 1px #c4c4c4;
+}
+
+#navbar {
+  z-index: 9999;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  box-shadow: 1px 1px 5px #a6a6a6;
+  border-bottom: none;
+}
+
+.sticky + #banner-image {
+  padding-top: 55px;
+}
+
+#navbar > hr {
+  margin: 0;
+  border: 1px solid #c4c4c4;
+  display: none;
+}
+
+.drop-header {
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 16px 0px;
+  font-size: 16px;
+  border: none;
+  white-space: nowrap;
+  transition: 0.3s;
+  width: 100%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .drop-header {
+  background-color: rgba(0, 69, 128, 0.9);
+  color: white;
+  cursor: pointer;
+}
+
+#banner-image {
+  text-align: center;
+}
+
+#banner-image img {
+  width: 100%;
+}
+
+.content {
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 320px;
+  padding: 0 15px 0 15px;
+  overflow: auto;
+}
+
+.button-link {
+  transition: 0.2s;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+  padding: 10px;
+  margin: auto auto 20px auto;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  box-shadow: 1px 1px 10px rgba(0, 69, 128, 1);
+  background-color: rgba(0, 69, 128, 1);
+  font-size: 26px;
+  width: 250px;
+  color: white;
+}
+
+.button-link:active {
+  color: rgba(0, 69, 128, 1);
+  box-shadow: 1px 1px 10px white;
+  background-color: white;
+}
+
+#logo-reprise {
+  margin-top: 20px;
+  margin: 0 auto;
+  padding-top: 1em;
+  width: 60%;
+  border-top: solid 1px #c4c4c4;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#logo-reprise img {
+  width: 250px;
+}
+
+#footer-container {
+  position: relative;
+  border-top: 1px solid #c4c4c4;
+  background-color: #f2f2f2;
+}
+
+#footer {
+  margin: 0 auto;
+  max-width: 1000px;
+  min-width: 320px;
+  padding: 10px 15px 10px 15px;
+  overflow: auto;
+  text-align: center;
+}
+
+#footer .blue-text {
+  font-weight: bold;
+}
+
+#footer p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inline-link {
+  color: rgba(0, 69, 128, 0.9);
+  font-weight: bold;
+}
+
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+.inline-link:active {
+  color: rgba(0, 69, 128, 1);
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -48px;
+  visibility: hidden;
+}
+
+#footer .reference {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 940px) {
+  .drop-header {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  #logo-banner {
+    display: none;
+  }
+
+  #mobile-navbar img {
+    height: 65px;
+    width: auto;
+  }
+
+  #menu-icon {
+    height: 53px;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #mobile-navbar {
+    display: block;
+  }
+
+  #menu-icon {
+    margin-bottom: -4px;
+  }
+
+  #main {
+    position: relative;
+    top: 70px;
+  }
+
+  #banner-image {
+    width: 100%;
+  }
+
+  #mobile-navbar-content {
+    height: 100%;
+  }
+
+  .mobile-dropdown-content {
+    font-size: 18px;
+  }
+
+  .mobile-dropdown-header {
+    font-size: 26px;
+  }
+
+  #footer {
+    text-align: center;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+
+  #logo-banner {
+    display: none;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #mobile-navbar {
+    display: block;
+  }
+
+  .menu-icon-bar {
+    margin: 12px 0;
+    width: 90px;
+    height: 15px;
+  }
+
+  .mobile-dropdown-content {
+    font-size: 250%;
+  }
+
+  .mobile-dropdown-header {
+    font-size: 300%;
+  }
+
+  #main {
+    position: relative;
+    top: 110px;
+  }
+
+  .content {
+    padding: 0 40px;
+  }
+
+  #logo-banner img {
+    height: 95%;
+    vertical-align: middle;
+  }
+
+  #footer {
+    text-align: center;
+    font-size: 34px;
+    padding: 0 40px;
+  }
+
+  #footer p {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  #banner-image {
+    width: 100%;
+  }
+
+  .button-link {
+    font-size: 35px;
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .anchor {
+    top: -100px;
+  }
+}

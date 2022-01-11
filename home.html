@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+      
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      
+    <!-- Behaviour Scripts -->
+    <script src="javascript/moveNavbar.js"></script>
+    <script src="javascript/mobileNavbar.js"></script>
+    <script src="javascript/changeNavbarColour.js"></script>
+    <script src="javascript/scrollTo.js"></script>
+      
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/home.css"/>
+      
+    <!-- Icon -->
+    <link rel="icon" href="resources/launcher_icon.png"/>
+      
+    <!-- Roboto Font Style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+      
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      
+    <!-- Animations for the site from an external library -->
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Mark Lumb Portfolio - Home</title>
+  </head>
+    
+    
+    
+  <body>
+    <span class="anchor" id="home"></span>
+    <div id="mobile-navbar">
+      <div id="menu-icon">
+        <div class="menu-icon-bar">
+        </div>
+        <div class="menu-icon-bar">
+        </div>
+        <div class="menu-icon-bar">
+        </div>
+      </div>
+      <div id="mobile-navbar-logo">
+        <a href="home.html"><img src="images/Logos.jpg" alt="Logo"/></a>
+      </div>
+      <div id="mobile-navbar-content">
+        <a class="mobile-dropdown-header home-nav-element">Home</a>
+        <a class="mobile-dropdown-header qualifications-nav-element">Qualifications</a>
+        <a class="mobile-dropdown-header work_examples-nav-element">Work Examples</a>
+        <a class="mobile-dropdown-header" href="work.html" >Work Experience</a>
+        <a class="mobile-dropdown-header" href="skills.html">Skills & Technologies</a>
+      </div>
+    </div>
+    <div id="main">
+      <div class="desktop-display" id="logo-banner">
+        <span class="helper"></span>
+        <a href="home.html"><img src="images/Logos.jpg" alt="Logo"/></a>
+      </div>
+      <div id="navbar">
+        <div class="dropdown">
+          <a id="home-nav-element" class="drop-header home-nav-element">Home</a>
+        </div>
+        <hr/>
+        <div class="dropdown">
+          <a id="qualifications-nav-element" class="drop-header qualifications-nav-element">Qualifications</a>
+        </div>
+        <hr/>
+        <div class="dropdown">
+          <a id="work_examples-nav-element" class="drop-header work_examples-nav-element">Work Examples</a>
+        </div>
+        <hr/>
+        <div class="dropdown">
+          <a class="drop-header" href="work.html">Work Experience</a>
+        </div>
+        <hr/>
+        <div class="dropdown">
+          <a class="drop-header" href="skills.html">Skills & Technologies</a>
+        </div>
+      </div>
+      <div id="banner-image">
+      </div>
+      <div id="main-intro-container">
+        <div id="main-intro">
+          <h1 class="blue-text">Welcome to</h1>
+          <div id="logo-main">
+            <img src="images/Logo.jpg" alt="Logo"/>
+          </div>
+          <p>Portfolio</a></p>
+          <a id="explore-button" class="button-link">Discover Me</a>
+        </div>
+      </div>
+      <span class="anchor" id="introduction"></span>
+      <div id="introduction-container" data-aos="fade-up">
+        <h2 class="blue-text">About Me</h2>
+        <img src="images/me.png" alt="me"/>
+        <p>I'm a keen C++, Java and Python programmer, with experience in a range of different languages and IDEs. I am currently studying and 
+		living in Newcastle, England. I have a preference for back-end work rather than front-end design work, however I am capable of either. 
+        <span class="blue-text">I am in my fourth and final year of undertaking a Masters of computer science in the specialisation of Games 
+		Engineering and am on track for a First class mark. </span>
+        If you would like to get in contact with me then my contact information is located at the 
+        bottom of the page.</p>
+		<br />
+		<p>
+		In my free time I enjoy drone flying, archery and making projects.
+		</p>
+      </div>
+      <span class="anchor" id="qualifications"></span>
+      <div id="qualifications-header-background">
+        <div id="qualifications-header-container">
+          <div id="qualifications-header-left" data-aos="fade-left">
+            <h1>Qualifications</h1>
+          </div>
+        </div>
+      </div>
+      <div id="qualifications-container">
+        <div class="qualifications-section-container odd">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-right">
+              <img src="images/newcastle_uni_logo.jpg" alt="Newcastle uni logo" style="margin-top:10%"/>
+            </div>
+            <div class="text-box" data-aos="fade-left">
+              <h3><i class="material-icons">map</i>Sep 2018 – Present: Newcastle University</h3>
+              <p>Studying for a masters degree in Computer Science with a specialisation in Games Engineering. This is a 4 year course, in my first through third years I have achieved a First and am on track for a First when I graduate.</p>
+                <p>Listed in the tables below are the modules and the percentage grade I got in them respectively.</p>
+                
+                <h4>Fourth Year:</h4>
+        <table>
+            <tr>
+                <th><b><u>Module:</u></b></th>
+                <th><b><u>Percentage:</u></b></th>
+            </tr>
+            <tr>
+                <td>Project and Dissertation for MComp</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Advanced Programming for Games</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Advanced Graphics for Games</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <td>Advanced Game Technologies</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Engineering Gaming Solutions within a Team</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Security Analysis of Complex Systems</td>
+                <td>N/A</td>
+            </tr>
+        </table>
+        
+        <span></span>
+        
+        <h4>Third Year:</h4>
+        <table>
+            <tr>
+                <th><b><u>Module:</u></b></th>
+                <th><b><u>Percentage:</u></b></th>
+            </tr>
+            <tr>
+                <td>Project and Dissertation in Computing Science</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Web Technologies</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>System and Network Security</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Programming for Games</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Gaming Simulations</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Graphics for Games</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td>Computer Games Development</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Cryptography</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>Introduction to Human-Computer Interaction</td>
+                <td>90</td>
+            </tr>
+        </table>
+        
+        <span></span>
+        
+        <h4>Second Year:</h4>
+        <table>
+            <tr>
+                <th><b><u>Module:</u></b></th>
+                <th><b><u>Percentage:</u></b></th>
+            </tr>
+            <tr>
+                <td>Algorithm Design and Analysis (<b>Java</b>)</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Operating Systems (<b>C and also use of Minix</b>)</td>
+                <td>86</td>
+            </tr>
+            <tr>
+                <td>Computer Networks (<b>C</b>)</td>
+                <td>87</td>
+            </tr>
+            <tr>
+                <td>Database Technology (<b>SQL</b>)</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Software Engineering (<b>VDM</b>)</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>Software Engineering Team Project (Produced an android app with documentation and advertising website)</td>
+                <td>79</td>
+            </tr>
+        </table>
+        
+        <span></span>
+        
+        <h4>First Year:</h4>
+        <table>
+            <tr>
+                <th><b><u>Module:</u></b></th>
+                <th><b><u>Percentage:</u></b></th>
+            </tr>
+            <tr>
+                <td>Programming 1 (<b>Java</b>)</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Programming 1 (<b>Java</b>)</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <td>The Software Engineering Professional</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Computer Architecture (<b>Assembly Language</b>)</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Mathematics for Computer Science</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Website Design and Construction (<b>HTML, CSS and JavaScript</b>)</td>
+                <td>80</td>
+            </tr>
+        </table>
+		<br />
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container even">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-left">
+              <img src="images/HGS_Logo.jpg" alt="HGS Logo" style="margin-top:45%"/>
+            </div>
+            <div class="text-box" data-aos="fade-right">
+              <h3>Sep 2011 – June 2018: Harrogate Grammar School:<i class="material-icons">place</i></h3>
+                <h4>Sep 2016 – June 2018 A-Levels</h4>
+              <table>
+            <tr>
+                <th><b><u>Subject:</u></b></th>
+                <th><b><u>Grade:</u></b></th>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>EPQ (Extended Project Qualification) <b>(Project in Computing and Product Design)</b></td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>C</td>
+            </tr>
+        </table>
+        
+        <h4>Sep 2011 – June 2016 GCSE’s</h4>
+        <table>
+            <tr>
+                <th><b><u>Subject:</u></b></th>
+                <th><b><u>Grade:</u></b></th>
+            </tr>
+            <tr>
+                <td>Computing</td>
+                <td>A*</td>
+            </tr>
+            <tr>
+                <td>Product Design</td>
+                <td>A*</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>A*</td>
+            </tr>
+            <tr>
+                <td>Biology</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>R.S</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>German</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>English Literature</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>English Language</td>
+                <td>B</td>
+            </tr>
+        </table>
+        <h4>Sep 2011 – June 2016 BTEC’s</h4>
+        <table>
+            <tr>
+                <th><b><u>Subject:</u></b></th>
+                <th><b><u>Grade:</u></b></th>
+            </tr>
+            <tr>
+                <td>CDMP (Creative Digital Media Production)</td>
+                <td>Distinction*</td>
+            </tr>
+        </table>
+		<br />
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container odd">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-right">
+              <img src="images/IBM_Logo.jpg" alt="IBM Logo" style="margin-top:10%"/>
+              <img src="images/F1_In_Schools_Logo.jpg" alt="F1 in schools STEM challenge logo" style="margin-top:10%"/>
+            </div>
+            <div class="text-box" data-aos="fade-left">
+              <h3><i class="material-icons">timeline</i>Additional Skills and Achievements</h3>
+              <ul>
+            <li>Competed in several UK Maths challenges in high school, each time earning a certificate for being in the top percentage of Maths students in Scotland, England and Wales. </li>
+            <li>Took part in an IBM event in sixth form, this deepened my communication and adaptability skills.</li>
+            <li>Was part of the engineering society at sixth form where we did maintenance on the school’s electric powered race car that competes in events. We also took part in the F1 in schools challenge where we designed and made a small CO2 powered foam car.</li>
+            <li>In year 11 and sixth form I became a school prefect, which meant I was responsible for looking after the younger years in an area.</li>
+            <li>In year 10 I was my form’s charity representative, where I had to organise all our charity events.</li>
+            <li>In year 10 I received the award for being the best in my year at Creative Media</li>
+            <li>In year 7 I received the award for being the best in my year at English</li>
+        </ul>
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container even">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-left">
+              <img src="resources/location.png" alt="location screen"/>
+            </div>
+            <div class="text-box" data-aos="fade-right">
+              <h3>...<i class="material-icons">place</i></h3>
+                <p>...</p>
+            </div>
+          </div>
+        </div>
+          
+        <div id="more-info-container">
+       <h2 class="blue-text">Documentation</h2>
+        <p>Find my CV below
+         If for any reason you cannot see the document in the browser, please use the link below to download the document.</p>
+        <h3 class="doc-header">Mark Lumb CV</h3>
+        <iframe class="cv" width="100%" height="800px" style="display: block;" title='Specification' frameBorder="0" src='resources/Mark Lumb CV.pdf'>Your browser does not support this tag.</iframe>
+        <p id="closer">If you cannot access the above document for any reason, <a class="inline-link" href='resources/Mark Lumb CV.docx'>click here</a>
+          to download the documentation.</p>   
+      </div>
+          
+          
+          
+         <span class="anchor" id="work_examples"></span>
+      <div id="qualifications-header-background">
+        <div id="qualifications-header-container">
+          <div id="qualifications-header-left" data-aos="fade-left">
+            <h1>Work Examples</h1>
+          </div>
+          <div id="qualifications-header-right"  data-aos="fade-right">
+            <img src="images/Programmer.png" alt="Programmer graphic" style="margin-top:20%"/>
+          </div>
+        </div>
+      </div>
+        <div class="qualifications-section-container odd">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-right">
+              <a href = "https://github.com/Mark841">
+			  <img src="images/GitHub_Logo.png" alt="GitHub Logo" style="margin-top:15%"/>
+			  </a>
+            </div>
+            <div class="text-box" data-aos="fade-left">
+              <h3><i class="material-icons">timeline</i>Work</h3>
+              <p>Some of these projects won’t appear on GitHub as they were university projects and are not allowed to be published publicly in accordance with the university’s rules to prevent plagiarism, if they would like to be seen please contact me.</p>
+                <br />
+                <p><b><a href="https://github.com/Mark841">My GitHub Account</a></b></p>
+				<br />
+				<br />
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container even">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-left">
+              <img src="images/DissOne_1.png" alt="Infinite Terrain chunks" title="Infinite Terrain chunks"/>
+                <iframe style="margin-left: 50px;" width="80%" height="240" src="https://www.youtube.com/embed/3i3Cz3EemcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="text-box" data-aos="fade-right">
+              <h3>Third Year Dissertation<i class="material-icons">place</i></h3>
+                <p><a href="https://github.com/Mark841/Third-Year-Dissertation-Project"><b>Third Year (BSc Dissertation) - Unity C#:</b> Creating a Procedurally Generated Near-Infinite Natural Landscape with a Steady Frame Rate  (2020-2021)</a></p>
+                
+                <iframe style="margin-left: 37px;" width="420" height="240" src="https://www.youtube.com/embed/6kcmMaVtCP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <br />  
+                  <br />  
+                  <br />  
+            </div>
+          </div>
+        </div>
+          
+        <div class="qualifications-section-container odd">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-right">
+              <iframe style="margin-top: 110px;" width="420" height="240" src="https://www.youtube.com/embed/dW22SLaYYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe style="margin-top: 50px;" width="420" height="240" src="https://www.youtube.com/embed/BT3L25Ml2r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="text-box" data-aos="fade-left">
+              <h3><i class="material-icons">timeline</i>2021</h3>
+              <ul>
+                <li><a href="https://github.com/Mark841/Third-Year-Dissertation-Project"><b>Third Year (BSc Dissertation) - Unity C#:</b> Creating a Procedurally Generated Near-Infinite Natural Landscape with a Steady Frame Rate (2020-2021)</a></li>
+                  <br />
+                <li><a href="https://github.com/Mark841/Game-Dev-Project---Full-Game"><b>GDevelop:</b> Top down survival shooter game - </a><a href="https://mark841.github.io/Game-Dev-Project---Full-Game/">PLAY HERE</a></li>
+                <img width="420" height="240" src="images/Sole survivor.png" alt="Sole Survivor" title="Sole Survivor"/>
+                  <br /> <br />               
+				<li><a href="https://github.com/Mark841/Third-year-Game-Simulations"><b>C++:</b> Platformer type game built from the ground up around a university provided framework with a custom engine</a></li>
+                <img width="420" height="240" src="images/Platformer Game.png" alt="Platformer game" title="Platformer game"/>
+                  <br />  
+                  <br />  
+			 </ul>
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container even">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-left">
+                <iframe style="margin-top: 85px;" width="420" height="240" src="https://www.youtube.com/embed/raYsNfEtIiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="text-box" data-aos="fade-right">
+              <h3>2020<i class="material-icons">timeline</i></h3>
+                <ul>
+				<li><a href="https://github.com/Mark841/Third-year-Graphics-project"><b>Unity C#:</b> Game graphical environment project</a></li>
+                  <br />  
+				<li><b>PHP, Bootstrap, Twig, RedBean and a university provided web development framework:</b> A GitHub style website to store user files in projects</li>
+                  <br />  
+				<li><b>C++:</b> Custom optimised Vector3D class which could be used as part of a complete physics engine aswell as a Bin class to deal with memory handling and array creation of Vector3Ds</li>
+                  <br />  
+				<li><b>C++:</b> Collision detection between different shapes, in this project only squares and circles</li>
+                  <br />  
+				<li><b>Java:</b> Northumbrian Architecture app (2019-2020)</li>
+                  <br />  
+			</ul>
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container odd">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-right">
+              <img src="images/StoreCombiner_MainMenu.png" alt="PC Store Combiner Main Menu"/>
+              <img src="images/StoreCombiner_ListGamesByDrive.png" alt="PC Store Combiner Listing Stores by Drive"/>
+            </div>
+            <div class="text-box" data-aos="fade-left">
+              <h3><i class="material-icons">timeline</i>2019</h3>
+              <ul>
+				<li><b>C:</b> MINIX OS programming</li>
+                  <br />  
+				<li><b>Java:</b> Telephone directory with GUI</li>
+                  <br />  
+				<li><b>HTML, CSS and JavaScript:</b> Introduction to web design</li>
+                  <br />  
+				<li><b>Assembly language:</b> Check bit generation for a 16 bit binary byte</li>
+                  <br />  
+				<li><b>Assembly language:</b> Error correction of a 16 bit binary byte</li>
+                  <br />  
+				<li><b>Java:</b> <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Java/Search%20For%20Games%20On%20System">Combining PC Game stores into 1 GUI (Beta, will be updated)</a></li>
+                  <br />  
+                <li><b>C++:</b> <a href="https://github.com/Mark841/Portfolio-Work/tree/master/C%2B%2B">2D Adventure Game (First game and game engine) (Work ongoing)</a> - <a href="https://github.com/Mark841/Portfolio-Work/tree/master/C%2B%2B/Game%20Running%20Videos">Videos of game running are here</a></li>
+                  <br />  
+			</ul>
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container even">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-left">
+              <img src="images/Pipboy_Menu.jpg" alt="Fallout Pipboy menu screen" style="margin-top:15%"/>
+            </div>
+            <div class="text-box" data-aos="fade-right">
+              <h3>2018<i class="material-icons">timeline</i></h3>
+                <ul>
+				<li><b>Python:</b> 
+                <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Custom%20PipBoy">Made a “Fallout” styled GUI to be used in a raspberry pi and 3D printed Pipboy with hardware integration that changed the GUI menus depending on which dials were rotated or buttons pressed (Work ongoing)</a> - <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Custom%20PipBoy%20-%20Project%20Development/Photos">Images and Videos of this project are here</a></li>
+                  <br />  
+				<li><b>Java:</b> Gross and Net Income graph</li>
+                  <br />  
+				<li><b>Java:</b> Sandwich shop build a sandwich menu</li>
+                  <br />  
+				<li><b>HTML and CSS:</b> Braille Website</li>
+                  <br />  
+			</ul>
+            </div>
+          </div>
+        </div>
+        <div class="qualifications-section-container odd">
+          <div class="qualifications-section">
+            <div class="image-box" data-aos="fade-right">
+              <img src="images/AutoSnake.gif" alt="Auto Snake" style="margin-top:15%"/>
+            </div>
+            <div class="text-box" data-aos="fade-left">
+              <h3><i class="material-icons">timeline</i>2017</h3>
+              <ul>
+				<li><b>Python:</b> <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Cat%20Food%20Dispenser">Cat food dispenser, code controlled motors to open and close the door 
+				after a set time</a> - <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Cat%20Food%20Dispenser/Images">Images and demonstration videos are here</a></li>
+                  <br />  
+				<li><b>Python:</b> <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Snake%20with%20SQL">Snake with AI, GUI and SQL database</a> - <a href="https://github.com/Mark841/Portfolio-Work/blob/master/Python/Snake%20with%20SQL/Videos%20of%20running.zip">Videos of running are here</a></li>
+                  <br />  
+				<li><b>Python:</b> <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Automatic%20Snake">Automatic snake that plays itself</a> - <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/Automatic%20Snake/Videos%20of%20Running">Videos of running are here, can also be seen to the left</a></li>
+                  <br />  
+				<li><b>Python:</b> <a href="https://github.com/Mark841/Portfolio-Work/tree/master/Python/School%20System">A basic school system for teachers and students (to learn OOP)</a></li>
+                  <br />  
+			</ul> 
+            </div>
+          </div>
+        </div>
+
+      
+      <div id="logo-reprise">
+        <img src="images/Logos.jpg" alt="logo"/>
+      </div>
+      <div id="footer-container">
+        <div id="footer">
+          <h2>Contact Information</h2>
+          <p><span class="blue-text">Email:</span> lumb.mark@yahoo.co.uk</p>
+          
+        </div>
+      </div>
+      <!-- JavaScript to initialise the fading animations -->
+    <script>
+      AOS.init({
+        duration: 2400
+      });
+    </script>
+    </div>
+  </body>
+</html>

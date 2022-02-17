@@ -1,114 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
+    <head>
+        <meta charset="UTF-8"/>
       
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       
-    <!-- Behaviour Scripts -->
-    <script src="javascript/moveNavbar.js"></script>
-    <script src="javascript/mobileNavbar.js"></script>
-    <script src="javascript/changeNavbarColour.js"></script>
-    <script src="javascript/scrollTo.js"></script>
+        <!-- Behaviour Scripts -->
+        <script src="javascript/moveNavbar.js"></script>
+        <script src="javascript/mobileNavbar.js"></script>
+        <script src="javascript/changeNavbarColour.js"></script>
+        <script src="javascript/scrollTo.js"></script>
       
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/base.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
-      
-    <!-- Icon -->
-    <link rel="icon" href="resources/launcher_icon.png"/>
-      
-    <!-- Roboto Font Style -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-      
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-      
-    <!-- Animations for the site from an external library -->
-	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Mark Lumb Portfolio - Home</title>
-  </head>
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+        <!-- Icon -->
+        <link rel="icon" href="resources/launcher_icon.png"/>
+
+        <!-- Roboto Font Style -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+        <!-- Animations for the site from an external library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <title>Mark Lumb Portfolio - Home</title>
+    </head>
     
     
     
-  <body>
-    <span class="anchor" id="home"></span>
-    <div id="mobile-navbar">
-      <div id="menu-icon">
-        <div class="menu-icon-bar">
+    <body>
+        <span class="anchor" id="home"></span>
+        <div id="mobile-navbar">
+            <div id="menu-icon">
+                <div class="menu-icon-bar">
+                </div>
+                <div class="menu-icon-bar">
+                </div>
+                <div class="menu-icon-bar">
+                </div>
+            </div>
+            <div id="mobile-navbar-logo">
+                <a href="index.html"><img src="images/Logos.png" alt="Logo"/></a>
+            </div>
+            <div id="mobile-navbar-content">
+                <a class="mobile-dropdown-header home-nav-element">Home</a>
+                <a class="mobile-dropdown-header qualifications-nav-element">Qualifications</a>
+                <a class="mobile-dropdown-header work_examples-nav-element">Work Examples</a>
+                <a class="mobile-dropdown-header" href="work.html" >Work Experience</a>
+                <a class="mobile-dropdown-header" href="skills.html">Skills & Technologies</a>
+            </div>
         </div>
-        <div class="menu-icon-bar">
-        </div>
-        <div class="menu-icon-bar">
-        </div>
-      </div>
-      <div id="mobile-navbar-logo">
-        <a href="index.html"><img src="images/Logos.jpg" alt="Logo"/></a>
-      </div>
-      <div id="mobile-navbar-content">
-        <a class="mobile-dropdown-header home-nav-element">Home</a>
-        <a class="mobile-dropdown-header qualifications-nav-element">Qualifications</a>
-        <a class="mobile-dropdown-header work_examples-nav-element">Work Examples</a>
-        <a class="mobile-dropdown-header" href="work.html" >Work Experience</a>
-        <a class="mobile-dropdown-header" href="skills.html">Skills & Technologies</a>
-      </div>
-    </div>
-    <div id="main">
-      <div class="desktop-display" id="logo-banner">
-        <span class="helper"></span>
-        <a href="index.html"><img src="images/Logos.jpg" alt="Logo"/></a>
-      </div>
-      <div id="navbar">
-        <div class="dropdown">
-          <a id="home-nav-element" class="drop-header home-nav-element">Home</a>
-        </div>
-        <hr/>
-        <div class="dropdown">
-          <a id="qualifications-nav-element" class="drop-header qualifications-nav-element">Qualifications</a>
-        </div>
-        <hr/>
-        <div class="dropdown">
-          <a id="work_examples-nav-element" class="drop-header work_examples-nav-element">Work Examples</a>
-        </div>
-        <hr/>
-        <div class="dropdown">
-          <a class="drop-header" href="work.html">Work Experience</a>
-        </div>
-        <hr/>
-        <div class="dropdown">
-          <a class="drop-header" href="skills.html">Skills & Technologies</a>
-        </div>
-      </div>
-      <div id="banner-image">
-      </div>
-      <div id="main-intro-container">
-        <div id="main-intro">
-          <h1 class="blue-text">Welcome to</h1>
-          <div id="logo-main">
-            <img src="images/Logo.jpg" alt="Logo"/>
-          </div>
-          <p>Portfolio</a></p>
-          <a id="explore-button" class="button-link">Discover Me</a>
-        </div>
-      </div>
-      <span class="anchor" id="introduction"></span>
-      <div id="introduction-container" data-aos="fade-up">
-        <h2 class="blue-text">About Me</h2>
-        <img src="images/me.png" alt="me"/>
-        <p>I'm a keen C++, Java and Python programmer, with experience in a range of different languages and IDEs. I am currently studying and 
-		living in Newcastle, England. I have a preference for back-end work rather than front-end design work, however I am capable of either. 
-        <span class="blue-text">I am in my fourth and final year of undertaking a Masters of computer science in the specialisation of Games 
-		Engineering and am on track for a First class mark. </span>
-        If you would like to get in contact with me then my contact information is located at the 
-        bottom of the page.</p>
-		<br />
-		<p>
-		In my free time I enjoy drone flying, archery and making projects.
-		</p>
-      </div>
+        <div id="main">
+            <div class="desktop-display" id="logo-banner">
+                <span class="helper"></span>
+                <a href="index.html"><img src="images/Logos.png" alt="Logo"/></a>
+            </div>
+            <div id="navbar">
+                <div class="dropdown">
+                    <a id="home-nav-element" class="drop-header home-nav-element">Home</a>
+                </div>
+                <hr/>
+                <div class="dropdown">
+                <a id="qualifications-nav-element" class="drop-header qualifications-nav-element">Qualifications</a>
+                </div>
+                <hr/>
+                <div class="dropdown">
+                <a id="work_examples-nav-element" class="drop-header work_examples-nav-element">Work Examples</a>
+                </div>
+                <hr/>
+                <div class="dropdown">
+                <a class="drop-header" href="work.html">Work Experience</a>
+                </div>
+                <hr/>
+                <div class="dropdown">
+                <a class="drop-header" href="skills.html">Skills & Technologies</a>
+                </div>
+            </div>
+            <div id="banner-image">
+            </div>
+            <span class="anchor" id="introduction"></span>
+            <div id="introduction-container" data-aos="fade-up">
+                <div class="image-box" data-aos="fade-left">
+                    <img src="images/Higher FPS Rope.gif" alt="Rope Constraint Gif" title="Rope Constraint Gif"/>
+                    <iframe src="https://www.youtube.com/embed/USjTYOygQ9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                </div>
+                <div class="text-box" data-aos="fade-right">
+                    <h2 class="blue-text">About Me</h2>
+                    <img src="images/me.png" alt="me"/>
+                    <p>I'm a keen C++, Java and Python programmer, with experience in a range of different languages and IDEs. I am currently studying and 
+                    living in Newcastle, England. I have a preference for back-end work rather than front-end design work, however I am capable of either. 
+                    <span class="blue-text">I am in my fourth and final year of undertaking a Masters of Computer Science in the specialisation of Games 
+                    Engineering and am on track for a First class mark. </span>
+                    If you would like to get in contact with me then my contact information is located at the 
+                    bottom of the page.</p>
+                    <br />
+                    <p>I enjoy drone flying, archery and making any type of projects, for example I have created my own shelves, coffee table and containers for things in my room. I also provided my coding knowledge for a project of my brothers to make an authentic functioning PipBoy from the fallout franchise, where he designed and 3D printed the shell and I got the hardware and made the software to feature in it using a Raspberry Pi.</p>
+                </div>
+            </div>
+                
+                
+                
       <span class="anchor" id="qualifications"></span>
       <div id="qualifications-header-background">
         <div id="qualifications-header-container">
@@ -148,7 +145,7 @@
             </tr>
             <tr>
                 <td>Advanced Game Technologies</td>
-                <td>N/A</td>
+                <td>89</td>
             </tr>
             <tr>
                 <td>Engineering Gaming Solutions within a Team</td>
@@ -390,25 +387,6 @@
             </div>
           </div>
         </div>
-        <div class="qualifications-section-container even">
-          <div class="qualifications-section">
-            <div class="text-box" data-aos="fade-right">
-                <br />
-            </div>
-          </div>
-        </div>
-          
-        <div id="more-info-container">
-       <h2 class="blue-text">Documentation</h2>
-        <p>Find my CV below.
-         If for any reason you cannot see the document in the browser, please use the link below to download the document.</p>
-        <h3 class="doc-header">Mark Lumb CV</h3>
-        <iframe class="cv" width="100%" height="800px" style="display: block;" title='Specification' frameBorder="0" src='resources/Mark Lumb CV.pdf'>Your browser does not support this tag.</iframe>
-        <p id="closer">If you cannot access the above document for any reason, <a class="inline-link" href='resources/Mark Lumb CV.docx'>click here</a>
-          to download the documentation.</p>   
-      </div>
-          
-          
           
          <span class="anchor" id="work_examples"></span>
       <div id="qualifications-header-background">
@@ -432,7 +410,7 @@
               <h3><i class="material-icons">timeline</i>Work</h3>
               <p>Some of these projects won’t appear on GitHub as they were university projects and are not allowed to be published publicly in accordance with the university’s rules to prevent plagiarism, if they would like to be seen please contact me.</p>
                 <br />
-                <p><b><a href="https://github.com/Mark841">My GitHub Account</a></b></p>
+                <p><b><a class="inline-link" href="https://github.com/Mark841">My GitHub Account</a></b></p>
 				<br />
 				<br />
             </div>
@@ -607,7 +585,15 @@
 
       
       <div id="logo-reprise">
-        <img src="images/Logos.jpg" alt="logo"/>
+        <div id="more-info-container">
+       <h2 class="blue-text">Documentation</h2>
+        <p>Find my CV below.
+         If for any reason you cannot see the document in the browser, please use the link below to download the document.</p>
+        <h3 class="doc-header">Mark Lumb CV</h3>
+        <iframe class="cv" width="100%" height="800px" style="display: block;" title='Specification' frameBorder="0" src='resources/Mark Lumb CV.pdf'>Your browser does not support this tag.</iframe>
+        <p id="closer">If you cannot access the above document for any reason, <a class="inline-link" href='resources/Mark Lumb CV.docx'>click here</a>
+          to download the documentation.</p>   
+      </div>
       </div>
       <div id="footer-container">
         <div id="footer">

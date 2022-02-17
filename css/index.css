@@ -69,11 +69,31 @@ p {
 
 #introduction-container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 100%;
   min-width: 320px;
   padding: 10px 15px 10px 15px;
-  overflow: none;
+  overflow: auto;
   margin-bottom: 60px;
+}
+#introduction-container .image-box {
+    float: left;
+}
+#introduction-container .image-box img {
+    width: 630px; 
+    height: 360px;
+	margin-top: 5%;
+	margin-left: 17.5%;
+    margin-bottom: 0%;
+}
+#introduction-container .image-box iframe {
+    width: 630px; 
+    height: 360px;
+	margin-top: 0%;
+	margin-left: 20%;
+    margin-bottom: 5%;
+}
+#introduction-container .text-box {
+    float: right;
 }
 
 #introduction-container h2 {
@@ -81,8 +101,7 @@ p {
   font-size: 30px;
 }
 
-#introduction-container img {
-	
+#introduction-container .text-box img {
 	width: 20%; 
 	margin-left: 40%;
 	height: auto;
@@ -90,7 +109,7 @@ p {
 }
 
 #introduction-container p {
-  width: 55%;
+  width: 100%;
   text-align: justify;
   text-align-last: center;
   margin: 0 auto;
@@ -102,7 +121,7 @@ p {
 
 #qualifications-header-background {
   overflow: auto;
-  background: url("../images/Gouthwaite_Reservoir.png") no-repeat center center fixed;
+  background: url("../images/Background.gif") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
